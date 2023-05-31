@@ -54,9 +54,10 @@
 }
 
 .cabecalho__banner_botao{
+    width: 100%;
     border: 1px solid white;
     border-radius: 6px;
-    padding: 1em 5em 1em ;
+    padding: 1em 2em;
 }
 
 @media screen and (min-width: 768px){
@@ -76,6 +77,12 @@
 }
 
 @media screen and (min-width: 1024px){
+
+    .cabecalho {
+        background: black url(../img/sky.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
       
     .cabecalho_1024{
     display: flex;
