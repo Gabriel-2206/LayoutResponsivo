@@ -1,0 +1,88 @@
+.contatos{
+    font-family: var(--font-principal);
+    text-align: center;
+}
+
+.contatos_titulos{
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.contatos_txt{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 0.7em;
+}
+
+.contatos_destaques{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.contatos_destaques_txt{
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid black;
+    width: 90%;
+    padding: 0.6em 0 0.6em 0;
+    border-radius: 5px;
+}
+
+.contatos_subtitulos{
+    padding: 2em 0 1em 0 ;
+    font-size:24px ;
+    font-weight:700 ;
+}
+
+.contatos_endereco{
+    font-size:23px ;
+    font-weight:400 ;
+    line-height: 1.3em;
+    padding: 0.4em 0 1.3em 0;
+}
+
+.contatos_tel{
+    padding-bottom: 0.5em;
+}
+
+.contatos_link{
+    color: #0084FF;
+    padding-bottom: 2em;
+    
+}
+
+.contatos_tel_768{
+    display: none;
+}
+
+.contatos_video{
+    width: 100%;
+    padding: 2em 0 2em 0;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .contatos_destaques_txt{
+        width: 40%;
+    }
+    .contatos_video{
+        width: 676px;
+    }
+    .contatos_tel{
+        display: none;
+    }
+    .contatos_link{
+        display: none;
+    }
+    .contatos_tel_768{
+        display: block;
+    }
+    .contatos_link_768{
+        color: #0084FF;
+    }
+}
