@@ -15,7 +15,8 @@
 }
 
 .destaque_img1{
-    width: 95%;
+    max-width: 365px;
+    width: 98%;
 }
 
 .destaques_texto{
