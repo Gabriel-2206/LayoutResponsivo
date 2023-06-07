@@ -15,7 +15,7 @@
 }
 
 .destaque_img1{
-    width: 375px;
+    width: 95%;
 }
 
 .destaques_texto{
@@ -53,7 +53,6 @@
     border: 1px solid #B72E2E;
     border-radius: 6px;
     padding: 1em 5em 1em 5em ;
-   
 }
 
 
